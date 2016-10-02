@@ -1,9 +1,12 @@
+#ifndef IMAGE1
+#define IMAGE1
+
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 
 using namespace cv;
 
-int main(int argc, char** argv){
+int process(){
 	Mat image;
 	Mat dst;
 	image = cv::imread("../images/Image1.png", CV_LOAD_IMAGE_GRAYSCALE);
@@ -23,3 +26,5 @@ int main(int argc, char** argv){
 
 	return 0;
 }
+
+#endif

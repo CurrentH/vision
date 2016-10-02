@@ -4,7 +4,7 @@ CFLAGS    = -w -c -std=c++11#Compiler Flags
 
 LDFLAGS	  = #Linker options
 
-SOURCES   = main.cpp#
+SOURCES   = main.cpp image1.cpp image2.cpp image3.cpp image4_1.cpp image4_2.cpp#
 
 OBJECTS  = $(SOURCES:.cpp=.o)#Object files
 
