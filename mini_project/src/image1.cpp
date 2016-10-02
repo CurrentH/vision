@@ -3,10 +3,8 @@
 
 using namespace cv;
 
-
-int main(int argc, char** argv )
-{
-	Mat image; 
+int main(int argc, char** argv){
+	Mat image;
 	Mat dst;
 	image = cv::imread("../images/Image1.png", CV_LOAD_IMAGE_GRAYSCALE);
 
