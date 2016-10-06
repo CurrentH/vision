@@ -10,6 +10,7 @@ SOURCES  += sources/image2.cpp#
 SOURCES  += sources/image3.cpp#
 SOURCES  += sources/image4_1.cpp#
 SOURCES  += sources/image4_2.cpp#
+SOURCES  += sources/functions.cpp#
 
 OBJECTS  = $(SOURCES:.cpp=.o)#Object files
 

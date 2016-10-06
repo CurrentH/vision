@@ -4,6 +4,8 @@
 #include "headers/image4_1.hpp"
 #include "headers/image4_2.hpp"
 
+#include <opencv2/opencv.hpp>
+
 int main(){
 
 	process1();
@@ -11,6 +13,8 @@ int main(){
 	process3();
 	process4_1();
 	process4_2();
+
+	cv::waitKey();
 
 	return 0;
 }
