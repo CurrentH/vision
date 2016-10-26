@@ -10,13 +10,11 @@
 
 int main(){
 
-	//process1();
-	//process2();
-	//process3();
+	process1();
+	process2();
+	process3();
 	process4_1();
-	process4_2();
-
-	usleep(1000000);
+	//process4_2();
 
 	cv::waitKey();
 

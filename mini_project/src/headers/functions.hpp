@@ -22,4 +22,10 @@ void show(std::vector<Mat> &image, std::string name, int posX = 0, int posY = 0,
 
 void adaptiveMedian(Mat &image, Mat &dst, int maxMaskSize);
 
+
+cv::Mat computeDFT(cv::Mat &image);
+void rearrangeComplex(Mat &image);
+void showComplex(Mat complex, std::string name, int posX = 0, int posY = 0, int width = 250, int height = 200);
+void showResult(Mat complex, std::string name, int posX = 0, int posY = 0, int width = 250, int height = 200);
+
 #endif
