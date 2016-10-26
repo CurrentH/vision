@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/theis/workspace/vision/mini_project/build
+CMAKE_SOURCE_DIR = /home/stagsted/workspace/vision/mini_project/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/theis/workspace/vision/mini_project/build
+CMAKE_BINARY_DIR = /home/stagsted/workspace/vision/mini_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/theis/workspace/vision/mini_project/build/CMakeFiles /home/theis/workspace/vision/mini_project/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stagsted/workspace/vision/mini_project/build/CMakeFiles /home/stagsted/workspace/vision/mini_project/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/theis/workspace/vision/mini_project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stagsted/workspace/vision/mini_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ image1/fast:
 	$(MAKE) -f CMakeFiles/image1.dir/build.make CMakeFiles/image1.dir/build
 .PHONY : image1/fast
 
-home/theis/workspace/vision/mini_project/src/image1.o: home/theis/workspace/vision/mini_project/src/image1.cpp.o
-
-.PHONY : home/theis/workspace/vision/mini_project/src/image1.o
-
-# target to build an object file
-home/theis/workspace/vision/mini_project/src/image1.cpp.o:
-	$(MAKE) -f CMakeFiles/image1.dir/build.make CMakeFiles/image1.dir/home/theis/workspace/vision/mini_project/src/image1.cpp.o
-.PHONY : home/theis/workspace/vision/mini_project/src/image1.cpp.o
-
-home/theis/workspace/vision/mini_project/src/image1.i: home/theis/workspace/vision/mini_project/src/image1.cpp.i
-
-.PHONY : home/theis/workspace/vision/mini_project/src/image1.i
-
-# target to preprocess a source file
-home/theis/workspace/vision/mini_project/src/image1.cpp.i:
-	$(MAKE) -f CMakeFiles/image1.dir/build.make CMakeFiles/image1.dir/home/theis/workspace/vision/mini_project/src/image1.cpp.i
-.PHONY : home/theis/workspace/vision/mini_project/src/image1.cpp.i
-
-home/theis/workspace/vision/mini_project/src/image1.s: home/theis/workspace/vision/mini_project/src/image1.cpp.s
-
-.PHONY : home/theis/workspace/vision/mini_project/src/image1.s
-
-# target to generate assembly for a file
-home/theis/workspace/vision/mini_project/src/image1.cpp.s:
-	$(MAKE) -f CMakeFiles/image1.dir/build.make CMakeFiles/image1.dir/home/theis/workspace/vision/mini_project/src/image1.cpp.s
-.PHONY : home/theis/workspace/vision/mini_project/src/image1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +132,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... image1"
-	@echo "... home/theis/workspace/vision/mini_project/src/image1.o"
-	@echo "... home/theis/workspace/vision/mini_project/src/image1.i"
-	@echo "... home/theis/workspace/vision/mini_project/src/image1.s"
 .PHONY : help
 
 

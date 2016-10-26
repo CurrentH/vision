@@ -6,13 +6,17 @@
 
 #include <opencv2/opencv.hpp>
 
+#include <unistd.h>
+
 int main(){
 
-	process1();
-	process2();
-	process3();
+	//process1();
+	//process2();
+	//process3();
 	process4_1();
 	process4_2();
+
+	usleep(1000000);
 
 	cv::waitKey();
 
